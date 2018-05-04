@@ -1,0 +1,77 @@
+body{
+    background-color: lightskyblue;
+    color: green;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+}
+
+nav a:link{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    font-size: 1rem;
+    color:black;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+}
+header {
+    text-align: center;
+}
+ul.custom {
+    list-style-image: url("../images/star.png");
+}
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div.menuimg{
+    margin: 10px;
+}
+ .menuimg img{
+    float: left;
+    width: 40%;
+    height: 30%;
+    padding: 0;
+    border: 0;
+    margin: 7px;
+}
+.menuimg{
+    font-size: 1.3rem;
+    color: black;
+    overflow: auto;
+    /* padding-top: 1em; */
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 10;
+}
+.menuimg a{
+    text-decoration: none;
+    color: black;
+}
+/* .menuimg h2{
+    display: inline;
+} */
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.7rem;
+    color: forestgreen;
+}
