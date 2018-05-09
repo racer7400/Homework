@@ -1,0 +1,31 @@
+html {
+    background-color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* * {
+    box-sizing: border-box;
+} */
+body {
+    background-color: white;
+    max-width: 800px;
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 40px;
+    /* display: inline-block; */
+    border: 1px solid black;
+    float: left;
+}
+p{
+    clear: left;
+}
