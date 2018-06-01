@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-gap: .5em;
+}
+.box, .bigbox{
+    background-color: yellow;
+}
+@media screen and (min-width: 640px){
+
+    .grid{
+        grid-template-areas: "hd hd";
+    }
+    .bigbox{
+        grid-area: hd;
+    }
+}
+@media screen and (min-width:1000px){
+    .grid{
+        grid-template-areas: "hd hd . .";
+    }
+    
+}
