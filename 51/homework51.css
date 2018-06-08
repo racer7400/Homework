@@ -1,0 +1,163 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 0px;
+}
+.main{
+    margin: 120px 10%;
+}
+nav,footer{
+    background-color: black;
+    color:white;
+    position: fixed;
+    width:100%;
+    padding: 20px 10%;
+}
+nav{
+    top:0;
+    z-index: 1;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+footer{
+    bottom:0;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+li{
+    justify-content: space-between;
+    padding:5px 60px 5px 0;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:red;
+}
+header{
+    background-color:lightgrey; 
+    padding:60px;
+    text-align: center;
+}
+header h1{
+    text-transform: uppercase;
+}
+.italic{
+    font-style:italic;
+}
+.boxes{
+    display:inline-flex;
+}
+.box{
+    display:inline-flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding:1%;
+    width: 33.33%;
+    align-content: space-between;
+}
+h3{
+    text-align: center;
+}
+.box:not(:last-child){
+    border-right:1px solid black;
+}
+img{
+    width:100%;
+}
+video{
+    width:100%;
+}
+.form{
+    background-color: lightgrey;
+    text-align: center;
+    padding:60px;
+    border-radius: 10px;
+}
+.form-group{
+    display:inline-block;
+}
+input[type]{
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: black 2px 2px;
+}
+input[type="submit"]{
+    box-shadow: none;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 76%;
+}
+caption{
+    font-weight: bold;
+    padding: 25px;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid black;
+    
+}
+th{
+    font-weight: bold;
+    padding: 8px 8px;
+}
+td{
+    text-align: right;
+    padding: 8px 4px 8px 20px;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+        
+tbody tr:hover {
+     background-color: lightblue;
+}
+tr td:last-child {
+    color:red;
+}
+tfoot{
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    /*products*/
+    .boxes{
+        display:inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box{
+        width: 100%;
+        padding: 0px;
+    }
+    .box:not(:last-child){
+        border-right:none;
+    }
+    .form-group{
+        display:block;
+    }
+    label{
+        width:4em;
+    }
+    input[type]{
+        margin: 4px auto;
+    }
+    input[type]:not(:last-child){
+        margin: 4px auto;
+        width:20em;
+    }
+
+}
